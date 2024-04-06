@@ -17,7 +17,7 @@ c. Random Forest Model: The third notebook demonstrates the usage of a Random Fo
 Each model has been evaluated based on various metrics and performance indicators. The results of these evaluations are summarized below:
 
 ### Logistic Regression Model: 
-
+In our analysis, we initially evaluated a classification model without scaling the data, which resulted in a precision of 0.53 and a recall of 0.15 for the positive class. After applying data scaling techniques, we observed no significant improvement in model performance. However, upon incorporating feature engineering, specifically by introducing new interaction terms derived from existing features, we achieved notable enhancements in the model's predictive capabilities. The inclusion of these engineered features led to a higher precision of 0.56 and a slight improvement in recall to 0.15 for the positive class. These results suggest that while scaling the data alone had minimal impact, feature engineering played a crucial role in refining the model's ability to accurately classify instances, particularly in identifying positive cases.
 
 ### KNN Model: 
 
